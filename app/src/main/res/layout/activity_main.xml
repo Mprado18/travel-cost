@@ -8,11 +8,11 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/inputDistancy"
+        android:id="@+id/inputDistance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:hint="@string/distancy"
+        android:hint="@string/distance"
         android:inputType="number"
         android:theme="@style/inputStyle" />
 
@@ -20,7 +20,7 @@
         android:id="@+id/comment1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/inputDistancy"
+        android:layout_below="@+id/inputDistance"
         android:layout_marginBottom="10dp"
         android:text="@string/total_km"
         android:theme="@style/commentsStyles" />
@@ -90,6 +90,7 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/buttonCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/totalCost"
