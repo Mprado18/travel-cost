@@ -10,13 +10,17 @@ Após entrar com estas informações o usuário deve pressionar o botão de "CAL
 
 O app foi construido com a linguagem Kotlin e seu layout desenvolvido diretamente via xml na IDE Android Studio.
 
+<div align="center">
+
 ## Tela principal
 
-<img src= https://i.imgur.com/Yxjyz46.png?1 />
+<img src= https://i.imgur.com/JN0V057.png />
 
 ## Demonstração do aplicativo em execução
 
-<img src= https://j.gifs.com/lRYXJj.gif />
+<img src= https://j.gifs.com/x6Gz2r.gif width="240px" height="500px" />
+  
+</div>
 
 ## Como executar o app?
 
