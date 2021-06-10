@@ -8,66 +8,66 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/inputDistance"
+        android:id="@+id/input_distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:hint="@string/distance"
         android:inputType="number"
-        android:theme="@style/inputStyle" />
+        style="@style/input_style" />
 
     <TextView
-        android:id="@+id/comment1"
+        android:id="@+id/comment_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/inputDistance"
+        android:layout_below="@+id/input_distance"
         android:layout_marginBottom="10dp"
         android:text="@string/total_km"
-        android:theme="@style/commentsStyles" />
+        style="@style/comments_styles" />
 
     <EditText
-        android:id="@+id/inputPrice"
+        android:id="@+id/input_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/comment1"
+        android:layout_below="@id/comment_1"
         android:layout_marginBottom="8dp"
         android:hint="@string/price"
         android:inputType="numberDecimal"
-        android:theme="@style/inputStyle" />
+        style="@style/input_style" />
 
     <TextView
-        android:id="@+id/comment2"
+        android:id="@+id/comment_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/inputPrice"
+        android:layout_below="@id/input_price"
         android:layout_marginBottom="10dp"
         android:text="@string/price_for_litre"
-        android:theme="@style/commentsStyles" />
+        style="@style/comments_styles" />
 
     <EditText
-        android:id="@+id/inputAutonomy"
+        android:id="@+id/input_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/comment2"
+        android:layout_below="@+id/comment_2"
         android:layout_marginBottom="8dp"
         android:hint="@string/autonomy"
         android:inputType="numberDecimal"
-        android:theme="@style/inputStyle" />
+        style="@style/input_style" />
 
     <TextView
-        android:id="@+id/comment3"
+        android:id="@+id/comment_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/inputAutonomy"
+        android:layout_below="@id/input_autonomy"
         android:layout_marginBottom="10dp"
         android:text="@string/kms_for_litre"
-        android:theme="@style/commentsStyles" />
+        style="@style/comments_styles" />
 
     <TextView
-        android:id="@+id/titleTotal"
+        android:id="@+id/title_total"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/comment3"
+        android:layout_below="@id/comment_3"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="15dp"
         android:fontFamily="@font/poppins_medium"
@@ -77,27 +77,27 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/totalCost"
+        android:id="@+id/total_cost"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/titleTotal"
+        android:layout_below="@id/title_total"
         android:layout_marginBottom="15dp"
         android:fontFamily="@font/poppins_bold"
         android:gravity="center"
-        android:text="R$ 0"
+        android:text="@string/r_0"
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/buttonCalculate"
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/totalCost"
+        android:layout_below="@id/total_cost"
         android:layout_centerInParent="true"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:text="@string/calculate"
-        android:theme="@style/buttonStyle" />
+        style="@style/button_style" />
 
 </RelativeLayout>
