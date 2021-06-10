@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.example.travel_cost.databinding.ActivityMainBinding
-import java.lang.ArithmeticException
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -22,7 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View) {
         val id = view.id
-        if (id == R.id.buttonCalculate) {
+        if (id == R.id.button_calculate) {
             calculate()
         }
     }
