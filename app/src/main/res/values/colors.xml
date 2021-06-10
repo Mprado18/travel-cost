@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="action_color">#195150</color>
     <color name="backgroundColorLayout">#113D3C</color>
     <color name="buttonColor">#FC9F35</color>
 </resources>
